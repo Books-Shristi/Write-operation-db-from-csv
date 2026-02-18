@@ -3,11 +3,11 @@ import pandas as pd
 import pyodbc
 from datetime import datetime
 import re
-SERVER = r'103.20.212.13\SQL22'
-DATABASE = 'Bookswagon25'
-USERNAME = 'sa'
-PASSWORD = 'Chil@sql22!'
-TABLE_NAME = 'Table_TempMasterUpload_Dump'
+SERVER = ''
+DATABASE = ''
+USERNAME = ''
+PASSWORD = ''
+TABLE_NAME = ''
 
 CSV_FOLDER = r'D:\Bookswagon-Shristi\Write-1\Archive'
 
@@ -170,3 +170,4 @@ cursor.close()
 conn.close()
 
 print("\nAll files processed successfully.")
+
